@@ -4,12 +4,12 @@
   "description": "Official website of Minister of State for Consumer Affairs, Food & Public Distribution",
   "icons": [
     {
-      "src": "/favicon/favicon-16x16.png",
+      "src": "favicon/favicon-16x16.png",
       "sizes": "16x16",
       "type": "image/png"
     },
     {
-      "src": "/favicon/apple-touch-icon.png",
+      "src": "favicon/apple-touch-icon.png",
       "sizes": "180x180",
       "type": "image/png"
     }
