@@ -1,10 +1,10 @@
 export const siteConfig = {
   name: "Smt. Nimuben Jayantibhai Bambhaniya",
   title: "Minister of State - Ministry of Consumer Affairs, Food & Public Distribution",
-  subTitle: "Member of Parliament, Lok Sabha",
+  subTitle: "", //Member of Parliament, Lok Sabha
   description:
     "Minister of State - Ministry of Consumer Affairs, Food & Public Distribution, Serving Bhavnagar with integrity, transparency, and commitment to every citizen's well-being.",
-  smallLogoImage: "small-logo.png",
+  smallLogoImage: "bjp-logo.png",
   contact: {
     phone: "+91-98255 66302",
     email: " nimuben.bambhania@gmail.com",
@@ -98,38 +98,38 @@ export const siteConfig = {
     {
       id: 1,
       image: "home-page-images/slideshow/banner-1.jpg",
-      title: "Empowering Communities, Ensuring Fair Distribution",
-      description: "Minister of State - Ministry of Consumer Affairs, Food & Public Distribution, Serving Bhavnagar with integrity, transparency, and commitment to every citizen's well-being.",
+      title: "",
+      description: "“A leader is one who knows the way, goes the way, and shows the way.” —John C. Maxwell",
     },
     {
       id: 2,
       image: "home-page-images/slideshow/banner-2.jpg",
-      title: "Strengthening Cultural Bonds & Bilateral Relations Between India and Slovakia",
-      description: "The President of India, joined by Minister of State Smt. Nimuben Jayantibhai Bambhaniya and MPs, interacted with the Indian diaspora and Slovak leaders in Bratislava, reaffirming shared values, economic cooperation, and people-to-people ties.",
+      title: "",
+      description: "“If your actions inspire others to dream more, learn more, do more and become more, you are a leader.” —John Quincy Adams",
     },
     {
       id: 3,
       image: "home-page-images/slideshow/banner-3.jpg",
-      title: "Shaping Policy. Empowering People. Delivering Results",
-      description: "Committed to Hon’ble PM Modi’s vision of inclusive development. Dedicated to supporting transformative schemes and welfare programs that put citizens first.",
+      title: "",
+      description: "No society can prosper if it aims at making things easier-instead it should aim at making people stronger.-ashoka",
     },
     {
       id: 4,
       image: "home-page-images/slideshow/banner-4.jpg",
-      title: "Guided by the Vision of Hon’ble PM Modi. Inspired by Leadership.",
-      description: "Representing Bhavnagar in Hon’ble PM Modi’s team, ensuring local aspirations meet national goals. Empowering India through collaboration, compassion, and commitment.",
+      title: "",
+      description: "“Management is doing things right; leadership is doing the right things.” —Peter Drucker",
     },
     {
       id: 5,
       image: "home-page-images/slideshow/banner-5.jpg",
-      title: "Connecting with the Public",
-      description: "Engaging directly with citizens to understand their needs and address community concerns through open dialogue.",
+      title: "",
+      description: "Making a Positive Impact, Every Day.",
     },
     {
       id: 6,
       image: "home-page-images/slideshow/banner-6.jpg",
-      title: "Advancing Inclusive Growth Through PM-Gatishakti",
-      description: "DISHA Committee reviews key schemes to ensure last-mile delivery and develop Bhavnagar & Botad as model districts.",
+      title: "",
+      description: "Empowering Communities, Building a Brighter Future.",
     }
   ],
 }

@@ -66,30 +66,23 @@ export default function ImageSlideshow() {
 
 
       {/* Content Overlay */}
-      <div className="absolute inset-0 z-10 flex items-center">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-          <div className="max-w-3xl">
-            <h1 className="font-serif text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-              {slides[currentSlide]?.title}
-            </h1>
-            <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
-              {slides[currentSlide]?.description}
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              {/* <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-3">
-                <Link href="/about" className="flex items-center gap-2">
-                  Learn More <ArrowRight className="w-5 h-5" />
-                </Link>
-              </Button> */}
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-white text-white hover:bg-white hover:text-gray-900 px-8 py-3 bg-transparent"
-              >
-                <Link href="/contact">Contact Office</Link>
-              </Button>
-            </div>
-          </div>
+      <div className="absolute inset-0 z-10 flex items-end pb-16">
+        <div className="w-full px-10 sm:px-20 lg:px-40 text-center">
+          <h1 className="font-serif text-4xl md:text-6xl font-extrabold text-white mb-4 leading-tight uppercase">
+            {slides[currentSlide]?.title}
+          </h1>
+          <p className="text-lg md:text-2xl text-white/90 mb-6 leading-relaxed uppercase font-bold">
+            {slides[currentSlide]?.description}
+          </p>
+          {/* <div className="flex justify-center">
+            <Button
+              size="lg"
+              variant="outline"
+              className="border-white text-white hover:bg-white hover:text-gray-900 px-8 py-3 bg-transparent"
+            >
+              <Link href="/contact">Contact Office</Link>
+            </Button>
+          </div> */}
         </div>
       </div>
 
