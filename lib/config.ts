@@ -4,6 +4,7 @@ export const siteConfig = {
   subTitle: "Member of Parliament, Lok Sabha",
   description:
     "Minister of State - Ministry of Consumer Affairs, Food & Public Distribution, Serving Bhavnagar with integrity, transparency, and commitment to every citizen's well-being.",
+  smallLogoImage: "small-logo.png",
   contact: {
     phone: "+91-98255 66302",
     email: " nimuben.bambhania@gmail.com",

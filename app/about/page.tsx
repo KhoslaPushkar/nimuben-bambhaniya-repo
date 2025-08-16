@@ -102,7 +102,7 @@ export default function AboutPage() {
                   <div className="text-center mb-6">
                     <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden bg-gray-200">
                       <img
-                        src="/about-page-images/image1.png"
+                        src="about-page-images/image1.png"
                         alt={siteConfig.name}
                         className="w-full h-full object-cover"
                       />

@@ -35,7 +35,7 @@ export default function Header() {
             </div>
           </div>
           <div className="flex items-center gap-4">
-            <div id="google_translate_element"></div>
+            {/* <div id="google_translate_element"></div> */}
             <div className="flex gap-2">
               {Object.entries(siteConfig.social).map(([platform, socialData]) => (
                 <Link
@@ -69,7 +69,7 @@ export default function Header() {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
               <Link href="/" className="flex items-center space-x-3">
-                <img src="small-logo.png" alt="Logo" className="w-12 h-12 rounded-full object-cover" />
+                <img src={siteConfig.smallLogoImage} alt="Logo" className="w-12 h-12 rounded-full object-cover" />
                 <div>
                   <h1 className="font-serif text-2xl font-bold text-gray-900">Nimuben Bambhaniya</h1>
                   <p className="text-sm text-gray-600">{siteConfig.subTitle}</p>
@@ -205,18 +205,18 @@ export default function Header() {
       </header>
 
       <script
-        dangerouslySetInnerHTML={{
-          __html: `
-            function googleTranslateElementInit() {
-              new google.translate.TranslateElement({
-                pageLanguage: 'en',
-                includedLanguages: 'en,hi,gu',
-                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
-                autoDisplay: false
-              }, 'google_translate_element');
-            }
-          `,
-        }}
+        // dangerouslySetInnerHTML={{
+        //   __html: `
+        //     function googleTranslateElementInit() {
+        //       new google.translate.TranslateElement({
+        //         pageLanguage: 'en',
+        //         includedLanguages: 'en,hi,gu',
+        //         layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+        //         autoDisplay: false
+        //       }, 'google_translate_element');
+        //     }
+        //   `,
+        // }}
       />
       <script
         type="text/javascript"
