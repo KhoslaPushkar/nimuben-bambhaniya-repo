@@ -70,12 +70,12 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/favicon/favicon.ico",
-    shortcut: "/favicon/favicon-32x32.png",
-    apple: "/favicon/favicon-32x32.png",
+    icon: "favicon/favicon.ico",
+    shortcut: "favicon/favicon-32x32.png",
+    apple: "favicon/favicon-32x32.png",
   },
-  manifest: "/site.webmanifest",
-    generator: ''
+  manifest: "site.webmanifest",
+  generator: ''
 }
 
 export default function RootLayout({
