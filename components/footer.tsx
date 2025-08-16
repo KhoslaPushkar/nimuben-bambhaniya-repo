@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
-              <img src="/small-logo.png" alt="Logo" className="w-12 h-12 rounded-full object-cover" />
+              <img src="small-logo.png" alt="Logo" className="w-12 h-12 rounded-full object-cover" />
               <div>
                 <h3 className="font-serif text-xl font-bold">Smt. Nimuben Jayantibhai Bambhaniya</h3>
                 <p className="text-gray-300">{siteConfig.subTitle}</p>

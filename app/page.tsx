@@ -82,7 +82,7 @@ export default function HomePage() {
             <div className="relative w-110 mx-auto">
               <div className="aspect-[4/5] bg-gray-200 rounded-lg overflow-hidden">
                 <img
-                  src="/home-page-images/home-page-image.jpg"
+                  src="home-page-images/home-page-image.jpg"
                   alt="Smt. Nimuben Jayantibhai Bambhaniya"
                   className="w-full h-full object-cover"
                 />
